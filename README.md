@@ -29,7 +29,6 @@ You can download the apk from [here](https://github.com/harshitism/MSTask/raw/ma
 #### Build Tools:
 |Name|Version|Description|
 |---|---|---|
-| [Gradle](http://gradle.org/docs/current/release-notes) | 2.10 | Gradle build system |
-| [Android Gradle Build Tools](http://tools.android.com/tech-docs/new-build-system) | 2.1.0 | Official Gradle Plugin |
-| [Android SDK Build Tools](http://developer.android.com/tools/revisions/build-tools.html) | 23.0.3 | Official Build Tools |
-| [Android Studio](http://tools.android.com/recent) | 2.1 | Official IDE |
+| [Android Gradle Build Tools](http://tools.android.com/tech-docs/new-build-system) | 2.1.2 | Official Gradle Plugin |
+| [Android SDK Build Tools](http://developer.android.com/tools/revisions/build-tools.html) | 23.0.2 | Official Build Tools |
+| [Android Studio](http://tools.android.com/recent) | 2.1.2 | Official IDE |
