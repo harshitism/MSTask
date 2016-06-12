@@ -2,22 +2,28 @@
 
 
 
-You can download the apk from [here](https://raw.github.com/ayushkedia123/wiki-image-search/master/apk/app-prod-release.apk)
+You can download the apk from [here](https://github.com/harshitism/MSTask/raw/master/ImageSearchApk.apk)
 
 
 # Screenshots
 <p align="center">
-  <img src="https://raw.github.com/ayushkedia123/wiki-image-search/master/screenshots/splash.png" width="350"/>
-  <img src="https://raw.github.com/ayushkedia123/wiki-image-search/master/screenshots/search_progress_bar.png" width="350"/>
+  <img src="https://raw.githubusercontent.com/harshitism/MSTask/master/Screenshots/ic_launcher.png" width="100"/>
+  
 </p>
 <p align="center">
-  <img src="https://raw.github.com/ayushkedia123/wiki-image-search/master/screenshots/search_default_image.png" width="350"/>
-  <img src="https://raw.github.com/ayushkedia123/wiki-image-search/master/screenshots/search_results.png" width="350"/>
+  <img src="https://raw.githubusercontent.com/harshitism/MSTask/master/Screenshots/Screenshot_20160613-013500.png" width="350"/>
+  <img src="https://raw.githubusercontent.com/harshitism/MSTask/master/Screenshots/Screenshot_20160613-013503.png" width="350"/>
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/harshitism/MSTask/master/Screenshots/Screenshot_20160613-013522.png" width="350"/>
+  <img src="https://raw.githubusercontent.com/harshitism/MSTask/master/Screenshots/Screenshot_20160613-013528.png" width="350"/>
 </p>
 
 ## Sailent Features:
+- Floating Search Button 
+- Image Loading popup animation 
 - Search the images for English Wikipedia.
-- View the list of images based on the search result.
+- Grid View of Images
 
 ## Technologies used:
 #### Build Tools:
