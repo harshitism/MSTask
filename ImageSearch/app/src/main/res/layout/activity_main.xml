@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.android.imagesearch.MainActivity"
+    android:background="@color/Grey100"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <GridView
+            android:id="@+id/gridview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnWidth="50dp"
+            android:numColumns="auto_fit"
+            android:verticalSpacing="0dp"
+            android:horizontalSpacing="0dp"
+            android:stretchMode="columnWidth"
+            android:gravity="center"
+            >
+
+        </GridView>
+
+
+
+        <LinearLayout
+            android:id="@+id/search_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/white"
+            >
+
+            <TextView
+                android:id="@+id/custom_address_heading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="ENTER SEARCH QUERY"
+                android:textColor="#757575"
+                android:textSize="14sp"
+                />
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/search_string"
+                android:layout_marginTop="20dp"
+                android:lines="1"
+                android:gravity="center"
+                android:hint="Enter Your Search String"
+                android:inputType="text"
+                android:digits="0,1,2,3,4,5,6,7,8,9,QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnm"
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/submit_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="Submit"
+                    style="?attr/borderlessButtonStyle"
+                    android:textColor="@color/Green500"
+                    />
+                <Button
+                    android:id="@+id/cancel_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="CANCEL"
+                    style="?attr/borderlessButtonStyle"
+                    android:textColor="@color/Red500"
+                    />
+
+            </RelativeLayout>
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/suggestion"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:src="@drawable/suggestion"
+            android:layout_alignParentRight="true"
+            android:layout_above="@+id/fab"
+            />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="@dimen/fab_margin"
+            android:src="@android:drawable/ic_menu_search" />
+
+    </RelativeLayout>
+
+
+
+
+</android.support.design.widget.CoordinatorLayout>
